@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ArgoSBX一键SSH命令生成器-甬哥ygkkk</title>
+  <title>ArgoSBX One-Click SSH Command Generator - Yonggekkk</title>
   <style>
     :root {
       --bg:#0b1020;
@@ -383,146 +383,146 @@
           </svg>
         </label>
       </div>
-      <h1>ArgoSBX小钢炮脚本💣一键SSH命令生成器 V25.11.20</h1>
+      <h1>ArgoSBX Cannon Script💣 One-Click SSH Command Generator V25.11.20</h1>
       <p>
-        甬哥Github项目：
+        Yongge's Github project:
         <a href="https://github.com/yonggekkk" target="_blank">github.com/yonggekkk</a><br>
-        甬哥Blogger博客：
+        Yongge's Blogger blog:
         <a href="https://ygkkk.blogspot.com" target="_blank">ygkkk.blogspot.com</a><br>
-        甬哥YouTube频道：
+        Yongge's YouTube channel:
         <a href="https://www.youtube.com/@ygkkk" target="_blank">www.youtube.com/@ygkkk</a><br>
       </p>
     </header>
 
     <div class="grid">
       <section class="card protocol-port">
-        <h2>必选内核协议端口：</h2>
+        <h2>Required Core Protocol Ports:</h2>
         <div class="protocol-group separator">
-          <h3>Xray可选协议：</h3>
+          <h3>Xray Optional Protocols:</h3>
           <div class="protocol-grid">
-            <label><input type="checkbox" data-proto="vlpt"> Vless-tcp-reality-vision <span class="pill">vlpt</span></label><input type="text" placeholder="留空则随机端口" data-port="vlpt">
-            <label><input type="checkbox" data-proto="xhpt"> Vless-xhttp-reality-enc <span class="pill">xhpt</span></label><input type="text" placeholder="留空则随机端口" data-port="xhpt">
-            <label><input type="checkbox" data-proto="vxpt"> Vless-xhttp-enc <span class="pill">vxpt</span></label><input type="text" placeholder="留空则随机端口（支持CDN优选）" data-port="vxpt">
-            <label><input type="checkbox" data-proto="vwpt"> Vless-ws-enc <span class="pill">vwpt</span></label><input type="text" placeholder="留空则随机端口（支持CDN优选，固定隧道必填URL端口）" data-port="vwpt">
+            <label><input type="checkbox" data-proto="vlpt"> Vless-tcp-reality-vision <span class="pill">vlpt</span></label><input type="text" placeholder="Leave blank for random port" data-port="vlpt">
+            <label><input type="checkbox" data-proto="xhpt"> Vless-xhttp-reality-enc <span class="pill">xhpt</span></label><input type="text" placeholder="Leave blank for random port" data-port="xhpt">
+            <label><input type="checkbox" data-proto="vxpt"> Vless-xhttp-enc <span class="pill">vxpt</span></label><input type="text" placeholder="Leave blank for random port (supports CDN optimization)" data-port="vxpt">
+            <label><input type="checkbox" data-proto="vwpt"> Vless-ws-enc <span class="pill">vwpt</span></label><input type="text" placeholder="Leave blank for random port (supports CDN optimization, fixed tunnel requires URL port)" data-port="vwpt">
           </div>
         </div>
         <div class="protocol-group separator">
-          <h3>Singbox可选协议：</h3>
+          <h3>Singbox Optional Protocols:</h3>
           <div class="protocol-grid">
-            <label><input type="checkbox" data-proto="hypt"> Hysteria2 <span class="pill">hypt</span></label><input type="text" placeholder="留空则随机端口" data-port="hypt">
-            <label><input type="checkbox" data-proto="tupt"> Tuic <span class="pill">tupt</span></label><input type="text" placeholder="留空则随机端口" data-port="tupt">
-            <label><input type="checkbox" data-proto="anpt"> AnyTLS <span class="pill">anpt</span></label><input type="text" placeholder="留空则随机端口" data-port="anpt">
-            <label><input type="checkbox" data-proto="arpt"> Any-reality <span class="pill">arpt</span></label><input type="text" placeholder="留空则随机端口" data-port="arpt">
-            <label><input type="checkbox" data-proto="sspt"> Shadowsocks-2022 <span class="pill">sspt</span></label><input type="text" placeholder="留空则随机端口" data-port="sspt">
+            <label><input type="checkbox" data-proto="hypt"> Hysteria2 <span class="pill">hypt</span></label><input type="text" placeholder="Leave blank for random port" data-port="hypt">
+            <label><input type="checkbox" data-proto="tupt"> Tuic <span class="pill">tupt</span></label><input type="text" placeholder="Leave blank for random port" data-port="tupt">
+            <label><input type="checkbox" data-proto="anpt"> AnyTLS <span class="pill">anpt</span></label><input type="text" placeholder="Leave blank for random port" data-port="anpt">
+            <label><input type="checkbox" data-proto="arpt"> Any-reality <span class="pill">arpt</span></label><input type="text" placeholder="Leave blank for random port" data-port="arpt">
+            <label><input type="checkbox" data-proto="sspt"> Shadowsocks-2022 <span class="pill">sspt</span></label><input type="text" placeholder="Leave blank for random port" data-port="sspt">
           </div>
         </div>
         <div class="protocol-group separator">
-          <h3>Xray/Singbox自动分配协议：</h3>
+          <h3>Xray/Singbox Auto-Assigned Protocols:</h3>
           <div class="protocol-grid">
-            <label><input type="checkbox" data-proto="sopt"> Socks5 <span class="pill">sopt</span></label><input type="text" placeholder="留空则随机端口" data-port="sopt">
-            <label><input type="checkbox" data-proto="vmpt"> Vmess-ws <span class="pill">vmpt</span></label><input type="text" placeholder="留空则随机端口（支持CDN优选，固定隧道必填URL端口）" data-port="vmpt">
+            <label><input type="checkbox" data-proto="sopt"> Socks5 <span class="pill">sopt</span></label><input type="text" placeholder="Leave blank for random port" data-port="sopt">
+            <label><input type="checkbox" data-proto="vmpt"> Vmess-ws <span class="pill">vmpt</span></label><input type="text" placeholder="Leave blank for random port (supports CDN optimization, fixed tunnel requires URL port)" data-port="vmpt">
           </div>
         </div>
       </section>
 
       <section class="card outbound-warp">
-        <h2>相关全局配置调整： </h2>
+        <h2>Related Global Configuration Adjustments: </h2>
         <div class="row">
-          <label>UUID 密码 <span class="pill">uuid</span></label>
+          <label>UUID Password <span class="pill">uuid</span></label>
           <div class="input-with-button">
-            <input id="uuid" type="text" placeholder="留空则随机生成uuid密码"/>
-            <button id="generateUuidBtn" type="button" class="primary">生成 UUID</button>
+            <input id="uuid" type="text" placeholder="Leave blank to randomly generate UUID password"/>
+            <button id="generateUuidBtn" type="button" class="primary">Generate UUID</button>
           </div>
         </div>
-        <div class="row"><label>Reality 域名 <span class="pill">reym</span></label><input id="reym" type="text" placeholder="留空则默认apple.com"/></div>
-        <div class="row"><label>CF解析IP的域名<span class="pill">cdnym</span></label><input id="cdnym" type="text" placeholder="Vmess-ws、Vless-xhttp/ws-enc启用80、回源CDN时可用" disabled/></div>
-        <div class="row"><label>套WARP-IP出站 <span class="pill">warp</span></label>
+        <div class="row"><label>Reality Domain <span class="pill">reym</span></label><input id="reym" type="text" placeholder="Leave blank for default apple.com"/></div>
+        <div class="row"><label>CF Resolution IP Domain<span class="pill">cdnym</span></label><input id="cdnym" type="text" placeholder="Available for Vmess-ws, Vless-xhttp/ws-enc when enabling 80, or back-to-source CDN" disabled/></div>
+        <div class="row"><label>WARP-IP Outbound <span class="pill">warp</span></label>
           <select id="warp">
-            <option value="">默认 服务器本地IP出站</option>
-            <option value="s">1、Singbox套WARP IPv4+IPv6、Xray本地IP</option>
-            <option value="s4">2、Singbox套WARP IPv4、Xray本地IP</option>
-            <option value="s6">3、Singbox套WARP IPv6、Xray本地IP</option>
-            <option value="x">4、Singbox本地IP、Xray套WARP IPv4+IPv6</option>
-            <option value="x4">5、Singbox本地IP、Xray套WARP IPv4</option>
-            <option value="x6">6、Singbox本地IP、Xray套WARP IPv6</option>
-            <option value="s4x4">7、Singbox+Xray同时套WARP IPv4</option>
-            <option value="s4x6">8、Singbox套WARP IPv4、Xray套WARP IPv6</option>
-            <option value="s6x4">9、Singbox套WARP IPv6、Xray套WARP IPv4</option>
-            <option value="s6x6">10、Singbox+Xray同时套WARP IPv6</option>
-            <option value="sx4">11、Singbox套WARP IPv4+IPv6、Xray套WARP IPv4</option>
-            <option value="sx6">12、Singbox套WARP IPv4+IPv6、Xray套WARP IPv6</option>
-            <option value="s4x">13、Singbox套WARP IPv4、Xray套WARP IPv4+IPv6</option>
-            <option value="s6x">14、Singbox套WARP IPv6、Xray套WARP IPv4+IPv6</option>
-            <option value="sx">15、Singbox+Xray同时套WARP IPv4+IPv6</option>
+            <option value="">Default Server Local IP Outbound</option>
+            <option value="s">1、Singbox with WARP IPv4+IPv6, Xray Local IP</option>
+            <option value="s4">2、Singbox with WARP IPv4, Xray Local IP</option>
+            <option value="s6">3、Singbox with WARP IPv6, Xray Local IP</option>
+            <option value="x">4、Singbox Local IP, Xray with WARP IPv4+IPv6</option>
+            <option value="x4">5、Singbox Local IP, Xray with WARP IPv4</option>
+            <option value="x6">6、Singbox Local IP, Xray with WARP IPv6</option>
+            <option value="s4x4">7、Singbox+Xray simultaneously with WARP IPv4</option>
+            <option value="s4x6">8、Singbox with WARP IPv4, Xray with WARP IPv6</option>
+            <option value="s6x4">9、Singbox with WARP IPv6, Xray with WARP IPv4</option>
+            <option value="s6x6">10、Singbox+Xray simultaneously with WARP IPv6</option>
+            <option value="sx4">11、Singbox with WARP IPv4+IPv6, Xray with WARP IPv4</option>
+            <option value="sx6">12、Singbox with WARP IPv4+IPv6, Xray with WARP IPv6</option>
+            <option value="s4x">13、Singbox with WARP IPv4, Xray with WARP IPv4+IPv6</option>
+            <option value="s6x">14、Singbox with WARP IPv6, Xray with WARP IPv4+IPv6</option>
+            <option value="sx">15、Singbox+Xray simultaneously with WARP IPv4+IPv6</option>
           </select>
         </div>
         
-        <div class="row"><label>IPv4/IPv6 配置导出 <span class="pill">ippz</span></label>
+        <div class="row"><label>IPv4/IPv6 Export Configuration <span class="pill">ippz</span></label>
           <select id="ippz">
-            <option value="">默认 自动</option>
-            <option value="4">导出 IPv4</option>
-            <option value="6">导出 IPv6</option>
+            <option value="">Default Auto</option>
+            <option value="4">Export IPv4</option>
+            <option value="6">Export IPv6</option>
           </select>
         </div>
         <div class="row">
-          <label>当前系统开放所有端口 <span class="pill">oap</span></label>
+          <label>Open All System Ports <span class="pill">oap</span></label>
           <select id="oap">
-            <option value="">默认 关闭</option>
-            <option value="y">开启 执行一次即可关闭</option>
+            <option value="">Default Off</option>
+            <option value="y">Enable (Run once to close)</option>
           </select>
         </div>
-        <div class="row"><label>导出节点名称前缀 <span class="pill">name</span></label><input id="name" type="text" placeholder="留空则默认协议名前缀"/></div>
+        <div class="row"><label>Export Node Name Prefix <span class="pill">name</span></label><input id="name" type="text" placeholder="Leave blank for default protocol prefix"/></div>
       </section>
 
       <section class="card argo-tunnel">
-        <h2>Argo临时/固定隧道CDN：</h2>
+        <h2>Argo Temporary/Fixed Tunnel CDN:</h2>
         <div class="row">
-          <label>启用Argo隧道开关 <span class="pill">argo</span></label>
+          <label>Enable Argo Tunnel Switch <span class="pill">argo</span></label>
           <select id="argoSelect">
-            <option value="">默认 关闭</option>
-            <option value="vwpt">启用Vless-ws-enc的Argo隧道 </option>
-            <option value="vmpt">启用Vmess-ws的Argo隧道 </option>
+            <option value="">Default Off</option>
+            <option value="vwpt">Enable Vless-ws-enc Argo Tunnel </option>
+            <option value="vmpt">Enable Vmess-ws Argo Tunnel </option>
           </select>
         </div>
-        <div class="row"><label>固定隧道CF域名 <span class="pill">agn</span></label><input id="agn" type="text" placeholder="Zero Trust已设置有子域名称的CF域名，留空则临时隧道" disabled></div>
-        <div class="row"><label>固定隧道Token <span class="pill">agk</span></label><input id="agk" type="text" placeholder="Zero Trust已提取ey开头的秘钥，留空则临时隧道" disabled></div>
+        <div class="row"><label>Fixed Tunnel CF Domain <span class="pill">agn</span></label><input id="agn" type="text" placeholder="CF domain with subdomain name already set in Zero Trust, leave blank for temporary tunnel" disabled></div>
+        <div class="row"><label>Fixed Tunnel Token <span class="pill">agk</span></label><input id="agk" type="text" placeholder="Key starting with 'ey' extracted from Zero Trust, leave blank for temporary tunnel" disabled></div>
       </section>
 
       <section class="card shortcut-commands-card">
-        <h2>如已安装脚本，可用以下快捷方式：</h2>
+        <h2>If the script is already installed, use the following shortcuts:</h2>
         <div class="shortcut-commands-content">
-          <button class="command-button" data-command="list">节点显示命令：list</button>
-          <button class="command-button" data-command="del">卸载脚本命令：del</button>
-          <button class="command-button" data-command="upx">升级Xray内核：upx</button>
-          <button class="command-button" data-command="ups">升级Singbox内核：ups</button>
-          <button class="command-button" data-command="res">重启脚本命令：res</button>
-          <button class="command-button" data-command="rep">调整变量、更新脚本命令（注:变量设置完成后再点击）：rep</button>
+          <button class="command-button" data-command="list">Node Display Command: list</button>
+          <button class="command-button" data-command="del">Uninstall Script Command: del</button>
+          <button class="command-button" data-command="upx">Upgrade Xray Core: upx</button>
+          <button class="command-button" data-command="ups">Upgrade Singbox Core: ups</button>
+          <button class="command-button" data-command="res">Restart Script Command: res</button>
+          <button class="command-button" data-command="rep">Adjust Variables, Update Script Command (Note: Click after variable setup): rep</button>
         </div>
       </section>
 
       <section class="card out">
         <div class="tabs">
-          <h2>进入服务器的SSH界面，复制下方生成的一键脚本命令，回车一次搞定</h2>
+          <h2>Enter the server's SSH interface, copy the one-click script command generated below, and press Enter once to complete</h2>
         </div>
         <div class="command-type-row">
-            <label>命令类型选择：</label>
+            <label>Command Type Selection:</label>
             <label style="margin-bottom: 0;"><input type="radio" name="commandType" value="curl" checked> curl</label>
             <label style="margin-bottom: 0;"><input type="radio" name="commandType" value="wget"> wget</label>
         </div>
         <textarea id="output" spellcheck="false"></textarea>
         <div class="actions">
-          <button id="reset">重置</button>
-          <button id="copy">复制</button>
+          <button id="reset">Reset</button>
+          <button id="copy">Copy</button>
         </div>
-        <p style="margin-top: 10px;">相关细节说明，请参考ArgoSBX小钢炮脚本项目💣：<a href="https://github.com/yonggekkk/argosbx" target="_blank">github.com/yonggekkk/argosbx</a></p>
-1、ArgoSBX一键SSH命令生成器发布，只要点几下，各大代理协议任你选：<a href="https://youtu.be/4u6W4c-t3oU" target="_blank">点击视频教程</a></p>
-2、ArgoSBX内置15种WARP出站组合，轻松替代独立的WARP脚本：<a href="https://youtu.be/iywjT8fIka4" target="_blank">点击视频教程</a></p>
-3、代理节点的IP、端口被封依旧可用！ArgoSBX脚本套CDN优选4大方案：<a href="https://youtu.be/RnUT1CNbCr8" target="_blank">点击视频教程</a></p>
-4、VPS+容器搭建最强CDN节点；独家解读Argo临时/固定隧道区别：<a href="https://youtu.be/K35NhrNiLK8" target="_blank">点击视频教程</a></p>
-5、ArgoSBX更新：VLESS抗量子加密；80端口开启TLS，无需域名CDN：<a href="https://youtu.be/X8BFVyeiY9g" target="_blank">点击视频教程</a></p>
-        安卓手机客户端推荐：<a href="https://github.com/starifly/NekoBoxForAndroid/releases" target="_blank">Nekobox-starifly版 (全协议支持)</a>、<a href="https://github.com/2dust/v2rayNG/releases" target="_blank">V2rayNG官方版</a><br>
-        电脑win客户端推荐：<a href="https://github.com/2dust/v2rayN/releases" target="_blank">V2rayN官方版 (全协议支持)</a><br>
-        苹果IOS客户端推荐：OneXray、Streisand
+        <p style="margin-top: 10px;">For related details, please refer to the ArgoSBX Cannon Script project💣: <a href="https://github.com/yonggekkk/argosbx" target="_blank">github.com/yonggekkk/argosbx</a></p>
+<p>1、ArgoSBX One-Click SSH Command Generator released, just a few clicks, choose from various proxy protocols: <a href="https://youtu.be/4u6W4c-t3oU" target="_blank">Click for video tutorial</a></p>
+<p>2、ArgoSBX built-in 15 WARP outbound combinations, easily replacing independent WARP scripts: <a href="https://youtu.be/iywjT8fIka4" target="_blank">Click for video tutorial</a></p>
+<p>3、Even if the IP and port of the proxy node are blocked, it's still usable! ArgoSBX script with 4 major CDN optimization solutions: <a href="https://youtu.be/RnUT1CNbCr8" target="_blank">Click for video tutorial</a></p>
+<p>4、VPS + Container to build the strongest CDN node; Exclusive interpretation of the difference between Argo temporary/fixed tunnels: <a href="https://youtu.be/K35NhrNiLK8" target="_blank">Click for video tutorial</a></p>
+<p>5、ArgoSBX Update: VLESS Anti-Quantum Encryption; Port 80 enables TLS, no domain name CDN required: <a href="https://youtu.be/X8BFVyeiY9g" target="_blank">Click for video tutorial</a></p>
+        <p>Android client recommendations: <a href="https://github.com/starifly/NekoBoxForAndroid/releases" target="_blank">Nekobox-starifly version (full protocol support)</a>、<a href="https://github.com/2dust/v2rayNG/releases" target="_blank">V2rayNG official version</a><br>
+        Windows client recommendations: <a href="https://github.com/2dust/v2rayN/releases" target="_blank">V2rayN official version (full protocol support)</a><br>
+        Apple iOS client recommendations: OneXray, Streisand
       </p>
       </section>
     </div>
@@ -794,7 +794,7 @@
   document.getElementById('copy').addEventListener('click', async () => {
     const t = document.getElementById('output');
     t.select(); t.setSelectionRange(0, 99999);
-    try { await navigator.clipboard.writeText(t.value); showToast('已复制到剪贴板'); } catch (e) { document.execCommand('copy'); showToast('已复制'); }
+    try { await navigator.clipboard.writeText(t.value); showToast('Copied to clipboard'); } catch (e) { document.execCommand('copy'); showToast('Copied'); }
   });
 
   document.getElementById('reset').addEventListener('click', () => { location.reload(); });
